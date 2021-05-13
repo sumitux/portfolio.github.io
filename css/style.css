@@ -1,0 +1,1238 @@
+body {
+        font-family: 'Libre Baskerville', serif;
+        font-family: 'Karla', sans-serif;
+        width: 100%;
+        height: 100%;
+        color: rgb(23, 22, 22);
+        background-color: rgb(255, 255, 255);
+      }
+
+
+        .container {
+          width: 59%;
+        }
+
+       
+
+        img {
+          width: 100%;
+          border-radius: .2em;
+        }
+
+        a {
+          color: #412fff;
+          color: #0f131d;
+          font-weight: bold;
+        }
+
+        a:hover {
+          color: rgb(23, 22, 22);
+          border-bottom: 5px solid #0f131d;
+          text-decoration: none;
+          transition: .2s;
+        }
+
+
+
+        /* heading logo */
+        /* heading logo */
+        /* heading logo */
+        .logo > a > img {
+          margin: 3em 0 0 0em;
+          width: 9.5em;
+        }
+
+        .logo > a:hover {
+          border-bottom: none;
+          text-decoration: none;
+        }
+        
+
+
+        /* download resume */
+        /* download resume */
+        /* download resume */
+        .resume_button {
+        float: right;
+        margin: 5em 0em 0 0;
+        font-family: 'Karla', sans-serif;
+        font-weight: bold;
+        font-size: 1.2em;
+        color: #0f131d;
+        padding: 12px 21px;
+        background-color: rgb(247, 247, 232);
+        transition: all .3s ease-in-out;
+        border-radius: .2em;
+        }
+      
+        .resume_button:hover {
+          color: #fff;
+          background-color: rgb(23, 22, 22);
+          text-decoration: none;
+        }
+
+        .download-resume-mobile {
+          display: none;
+        }
+
+
+
+
+        /* store store store button */
+        /* store store store button */
+        /* store store store button */
+        .store {
+          float: right;
+          margin: 5em 2.3em 0 0;
+          font-family: 'Karla', sans-serif;
+          font-weight: bold;
+          font-size: 1.2em;
+          color: #0f131d;
+          padding: 12px 15px;
+          background-color: #fff;
+          }
+
+          .store:hover {
+            color: #fff;
+            background-color: #0f131d;
+            text-decoration: none;
+            transition: .5s;
+          }
+
+
+
+
+
+
+
+        /* heading title */
+        /* heading title */
+        /* heading title */
+        .heading-title {
+          font-family: 'Libre Baskerville', serif;
+          margin: .8em 0 0 0;
+          font-size: 4.5em;
+          font-weight: bold;
+        }
+
+        .heading-line {
+          margin: .1.8em 0 0 0;
+          font-size: 1.7em;
+          line-height: 1.7em;
+        }
+
+        .heading-subline {
+          font-size: 1.2em;
+          margin-top: .5em;
+        }
+
+        .current-company {
+          color: #0f131d;
+        }
+
+
+
+        /* Short rectangle */
+        /* Short rectangle */
+        /* Short rectangle */
+        .short-rect {
+          margin: 3.3em 0 2.5em 0;
+          width: 7em;
+          height: .6em;
+          background-color: rgb(247, 247, 232);
+          border-radius: .1em;
+        }
+
+
+
+
+        /* heading animation */
+        /* heading animation */
+        /* heading animation */
+
+        .cd-headline {
+          font-size: 1.7em;
+          color: #0f131d;
+        }
+        .cd-words-wrapper {
+          display: inline-block;
+          position: relative;
+          text-align: left;
+        }
+        .cd-words-wrapper b {
+          display: inline-block;
+          position: absolute;
+          white-space: nowrap;
+          left: 0;
+          top: 0;
+        }
+        .cd-words-wrapper b.is-visible {
+          position: relative;
+        }
+        .no-js .cd-words-wrapper b {
+          opacity: 0;
+        }
+        .no-js .cd-words-wrapper b.is-visible {
+          opacity: 1;
+        }
+
+
+
+
+        /* heading animation theme */
+        /* heading animation theme */
+        /* heading animation theme */
+        /* -------------------------------- 
+
+xslide 
+
+-------------------------------- */
+.cd-headline.slide span {
+  display: inline-block;
+  padding: .2em 0;
+}
+.cd-headline.slide .cd-words-wrapper {
+  overflow: hidden;
+  vertical-align: top;
+}
+.cd-headline.slide b {
+  opacity: 0;
+  top: .2em;
+}
+.cd-headline.slide b.is-visible {
+  top: 0;
+  opacity: 1;
+  -webkit-animation: slide-in 0.6s;
+  -moz-animation: slide-in 0.6s;
+  animation: slide-in 0.6s;
+}
+.cd-headline.slide b.is-hidden {
+  -webkit-animation: slide-out 0.6s;
+  -moz-animation: slide-out 0.6s;
+  animation: slide-out 0.6s;
+}
+
+@-webkit-keyframes slide-in {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-100%);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translateY(20%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+@-moz-keyframes slide-in {
+  0% {
+    opacity: 0;
+    -moz-transform: translateY(-100%);
+  }
+  60% {
+    opacity: 1;
+    -moz-transform: translateY(20%);
+  }
+  100% {
+    opacity: 1;
+    -moz-transform: translateY(0);
+  }
+}
+@keyframes slide-in {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translateY(20%);
+    -moz-transform: translateY(20%);
+    -ms-transform: translateY(20%);
+    -o-transform: translateY(20%);
+    transform: translateY(20%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@-webkit-keyframes slide-out {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+  60% {
+    opacity: 0;
+    -webkit-transform: translateY(120%);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+  }
+}
+@-moz-keyframes slide-out {
+  0% {
+    opacity: 1;
+    -moz-transform: translateY(0);
+  }
+  60% {
+    opacity: 0;
+    -moz-transform: translateY(120%);
+  }
+  100% {
+    opacity: 0;
+    -moz-transform: translateY(100%);
+  }
+}
+@keyframes slide-out {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+  60% {
+    opacity: 0;
+    -webkit-transform: translateY(120%);
+    -moz-transform: translateY(120%);
+    -ms-transform: translateY(120%);
+    -o-transform: translateY(120%);
+    transform: translateY(120%);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+}
+
+
+
+/* Detail-me2 */
+  /* Detail-me2 */
+  /* Detail-me2 */
+  .detail-me2 {
+    margin: 6em 0 0 0;
+  }
+
+  .detail-me-content2 {
+    background-color: rgb(23, 22, 22);
+    color: #0f131d;
+    height: auto;
+    padding: 1em;
+    font-size: 1.2em;
+    border-radius: .2em;
+  }
+
+  .column-bottom {
+    transition: all .2s ease-in-out;
+  }
+
+  .column-bottom:hover {
+    transform: scale(1.03);
+  }
+
+  .dt {
+    font-size: 1em;
+    line-height: 1.7em;
+    margin: 0 0 .6em 0;
+    font-weight: 700;
+    color: #fff;
+    opacity: .9;
+  }
+
+  .pt {
+    font-size: 1em;
+    margin: 0 0 2.2em 0;
+    color: #fff;
+    opacity: .7;
+    font-weight: 400;
+  }
+
+  .st {
+    color: #fff;
+    opacity: .7;
+    font-size: 1em;
+    font-weight: 700;
+  }
+
+  .it {
+    color: #e3fffc;
+    max-width: 5em;
+    margin-bottom: 2em;
+    margin-top: .7em;
+    opacity: .9;
+  }
+
+
+
+
+  /* Detail-me */
+  /* Detail-me */
+  /* Detail-me */
+    .detail-me {
+      margin: 6em 0 0 0;
+    }
+
+    .detail-me-content {
+      background-color: #fff;
+      border: 5px solid #f0f0f0;
+      color: #0f131d;
+      height: auto;
+      padding: 1em;
+      font-size: 1.2em;
+    }
+
+    .detail-me-content > img {
+      color: #e3fffc;
+      width: 3em;
+      margin-bottom: .5em;
+    }
+
+
+
+
+    /* My-work */
+    /* My-work */
+    /* My-work */
+    .my-work {
+      margin: 8em 0 3em 0;
+    }
+
+    .my-work > h1 {
+      font-family: 'Libre Baskerville', serif;
+      font-weight: bold;
+      font-size: 2.5em;
+      margin: 0 0 .1em 0em;
+    }
+
+    .my-work > p {
+      font-size: 1.2em;
+      margin: 0 0 2em 0em;
+    }
+
+    .my-work-content {
+      color: #0f131d;
+      font-size: 1.2em;
+    }
+
+    .my-work-content > h5 {
+      margin: 1.2em 0 0 0;
+      line-height: 1.5em;
+      font-size: 1.1em;
+      font-weight: bold;
+    }
+
+    .my-work-content > p {
+      margin: .6em 0 1.8em 0;
+      color: #525252;
+    }
+
+    .img-work {
+      transition: all .2s ease-in-out;
+    }
+
+    .img-work:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+      transform: scale(1.03);
+    }
+
+    .mar-top-work {
+      margin-top: .5em;
+    }
+
+    .mywork-row {
+      margin-top: 1.3em;
+    }
+
+
+
+
+    /* all-work */
+    /* all-work */
+    /* all-work */
+    .all-work {
+      margin: 9em 0 5em 0;
+    }
+
+    .all-work-content {
+      background-color: rgb(247, 247, 232);
+      color: #0f131d;
+      font-size: 1.2em;
+      padding: 1.5em;
+      border-radius: .2em;
+    }
+
+    .icon-big {
+      font-size: 2.5em;
+      margin: 0 0 .3em 0;
+    }
+
+    .icon-r {
+      float: right;
+    }
+
+    .all-work-content {
+      transition: all .3s ease-in-out;
+    }
+
+    .all-work-content:hover {
+      background-color: rgb(23, 22, 22);
+      color: #fff;
+    }
+
+
+
+    /* social-handles */
+    /* social-handles */
+    /* social-handles */
+    .social-handles {
+      margin-bottom: 3em;
+      margin-top: 11em;
+      text-align: center;
+    }
+
+    .social-hover {
+      font-size: 1.5em;
+      opacity: 1;
+    }
+
+    .social-hover > a {
+      margin-right: 1.5em;
+      margin-left: 1.5em;
+    }
+
+    .social-hover > a:hover {
+      border-bottom: none;
+      opacity: .65;
+    }
+
+
+
+
+
+
+    /* footer-line */
+    /* footer-line */
+    /* footer-line */
+    .footer-line {
+      margin-bottom:5em;
+      margin-top: 6.5em;
+    }
+
+    .footer-line-sty > h1 {
+      font-size: 3em;
+      text-align: center;
+      font-weight: bold;
+      font-family: 'Libre Baskerville', serif;
+      opacity: 1;
+      line-height: 1.6em;
+    }
+
+
+
+
+
+     /* Contact-me */
+    /* Contact-me */
+    /* Contact-me */
+    .contact-me {
+      text-align: center;
+      margin-bottom: 1.5em;
+    }
+
+    .contact-me-head > h4 {
+      font-size: 1.2em;
+      font-weight: normal !important;
+    }
+
+
+
+
+
+
+
+    /* heading title child page */
+    /* heading title child page */
+    /* heading title child page */
+    /* heading title child page */
+    /* heading title child page */
+    /* heading title child page */
+    /* heading title child page */
+    /* heading title child page */
+    /* heading title child page */
+    /* heading title child page */
+    /* heading title child page */
+    /* heading title child page */
+    /* heading title child page */
+    /* heading title child page */
+    /* heading title child page */
+    /* heading title child page */
+
+        .heading-top-read {
+          font-size: 1.3em;
+          color: #707070;
+          margin-top: 1em;
+          text-align: center;
+        }
+
+        .heading-title-child {
+          margin: .8em 0 0 0;
+          font-size: 2.3em;
+          font-weight: 600;
+          line-height: 1.2em;
+          font-family: 'Libre Baskerville', serif;
+          text-align: center;
+        }
+
+        .heading-line-child {
+          margin: .7em 0 0 0;
+          font-size: 1.3em;
+          line-height: 1.8em;
+          text-align: center;
+          color: #4e4e4e;
+        }
+
+        .heading-tag-child {
+          font-size: 1.2em;
+          margin: 1.5em 0 0 0;
+          text-align: center;
+        }
+
+        tag_bg {
+          background-color: rgb(247, 247, 232);
+          padding: .3em .6em;
+          border-radius: .2em;
+        }
+
+
+
+
+        .heading-image-child {
+          margin: 3em 0 0 0;
+        }
+
+
+        .heading-head-child > h1 {
+          font-family: 'Libre Baskerville', serif;
+          font-size: 2.3em;
+          font-weight: bold;
+          margin-top: 3.2em;
+          margin-bottom: .5em;
+        }
+
+        .heading-head-child > h3 {
+          font-size: 1.5em;
+          font-weight: bold;
+          margin-top: 1.4em;
+          margin-bottom: .5em;
+        }
+
+        .heading-head-child > img {
+          margin-bottom: 1.3em;
+        }
+
+        .heading-head-child > p {
+          font-size: 1.3em;
+          line-height: 1.8em;
+        }
+
+        .heading-list-point > li {
+          font-size: 1.3em;
+          line-height: 1.8em;
+          color: #757575;
+        }
+
+        .research {
+          margin-top: -.7em;
+        }
+
+
+
+
+        /* my-work-page */
+        /* my-work-page */
+        /* my-work-page */
+        /* my-work-page */
+        /* my-work-page */
+        /* my-work-page */
+        /* my-work-page */
+        .my-work-page > h1 {
+          font-family: 'Libre Baskerville', serif;
+          font-weight: bold;
+          font-size: 2.5em;
+          margin: 0 0 .1em 0em;
+          margin-top: 2.5em;
+          margin-bottom: .7em;
+        }
+
+        .my-work-page-head > p {
+          margin-top: 2em;
+          margin-bottom: 5em;
+          font-size: 1.4em;
+          line-height: 1.8em;
+        }
+
+
+
+
+        /* free-stuff */
+
+        .freestuff-main {
+          color: #fff;
+          font-size: 1.4em;
+        }
+
+        .freestuff-cla > a:hover {
+          border-bottom: none;
+        }
+
+        .freestuff-point {
+          color: #fff;
+          opacity: .8;
+          border:2px solid #fff;
+          padding: .9em;
+          border-radius: 50%;
+          justify-content: center;
+          align-items: center;
+          display: inline-flex;
+          width: 2em;
+          height: 2em;
+          margin-bottom: .8em;
+          margin-right: .5em;
+        }
+
+        .freemar-top {
+          margin-top: 1.5em;
+        }
+
+
+
+
+        /* help */
+        /* help */
+        /* help */
+        /* help */
+        /* help */
+        /* help */
+        /* help */
+        /* help */
+        .ask-help > h1 {
+          font-family: 'Libre Baskerville', serif;
+          font-weight: bold;
+          font-size: 2.5em;
+          margin: 0 0 .1em 0em;
+          margin-top: 2.5em;
+          margin-bottom: .7em;
+        }
+
+        .my-work-page-head > p {
+          margin-top: 2em;
+          margin-bottom: 5em;
+          font-size: 1.3em;
+          line-height: 1.8em;
+          color: #fff;
+          opacity: .9
+        }
+
+        .my-work-content > .mywork-sec-para {
+          color: #fff;
+          opacity: .9;
+        }
+
+        .ask-help > p {
+          font-size: 1.4em;
+        }
+
+
+
+
+        /* hire-me */
+        /* hire-me */
+        /* hire-me */
+        /* hire-me */
+        /* hire-me */
+        /* hire-me */
+        /* hire-me */
+        .hire-me-head > p {
+          margin-top: 2em;
+          margin-bottom: 1em;
+          font-size: 1.4em;
+          line-height: 1.8em;
+        }
+
+        .hire-me-head-exp {
+          background-color: rgb(247, 247, 232);
+          width: auto;
+          height: auto;
+          padding: 1.5em 1.5em;
+          border-radius: .2em;
+        }
+
+        .hire-me-head-exp > a {
+          font-size: 1.2em;
+        }
+
+        .heading-hire {
+          font-size: 1.4em;
+          margin-bottom: .2em;
+        }
+
+        .exp {
+          color: #757575;
+          font-size: 1.2em;
+        }
+
+        p > .avai {
+          background-color: #62b767;
+          padding: .2em .7em;
+          border-radius: 5em;
+          color: #fff;
+          font-size: 1em;
+        }
+
+
+
+
+        /* about-me */
+        /* about-me */
+        /* about-me */
+        /* about-me */
+        /* about-me */
+        /* about-me */
+        /* about-me */
+        .about-me-head > p {
+          margin-top: 2em;
+          margin-bottom: 1em;
+          font-size: 1.3em;
+          line-height: 1.8em;
+          color: #fff;
+          opacity: .9
+
+        }
+
+        .about-me-head-exp {
+          background-color: #A5D6A7;
+          width: auto;
+          height: auto;
+          padding: 1.5em 1.5em;
+          border-radius: .2em;
+          margin-top: 1em;
+        }
+
+        .about-me-head-exp-vb {
+          background-color: #FFE082;
+          width: auto;
+          height: auto;
+          padding: 1.5em 1.5em;
+          border-radius: .2em;
+          margin-top: 1em;
+        }
+
+        .about-me-head-exp-ft {
+          background-color: #fff;
+          width: auto;
+          height: auto;
+          padding: 1.5em 1.5em;
+          border-radius: .2em;
+          margin-top: 1em;
+        }
+
+        .about-me-head-exp > a {
+          font-size: 1.2em;
+        }
+
+        .about-me-head-exp-ft > a {
+          font-size: 1.2em;
+        }
+
+        .heading-about {
+          font-size: 1.4em;
+          margin-bottom: .2em;
+        }
+
+        .exp-about {
+          color: rgb(23, 22, 22);
+          font-size: 1.2em;
+          line-height: 1.8em;
+        }
+
+        p > .avai-about {
+          background-color: rgb(23, 22, 22);
+          padding: .2em .7em;
+          border-radius: 5em;
+          color: #A5D6A7;
+          font-size: 1em;
+        }
+
+        p > .avai-about-vb {
+          background-color: rgb(23, 22, 22);
+          padding: .2em .7em;
+          border-radius: 5em;
+          color: #FFE082;
+          font-size: 1em;
+        }
+
+        p > .avai-about-ft {
+          background-color: #388E3C;
+          padding: .2em .7em;
+          border-radius: 5em;
+          color: #fff;
+          font-size: 1em;
+        }
+
+        .about-me-title {
+          font-family: 'Libre Baskerville', serif;
+          font-weight: bold;
+          font-size: 2.5em;
+          margin: 0 0 .1em 0em;
+          margin-top: 2.5em;
+          margin-bottom: .7em;
+          color: #fff;
+          opacity: .9;
+        }
+
+        .about-subhead {
+          margin-top: -1em;
+          margin-bottom: 2em;
+          font-size: 1.2em;
+          color: #fff;
+          opacity: .5;
+        }
+
+
+
+
+
+
+
+
+    /* tab-ipad-responsive */
+    /* tab-ipad-responsive */
+    /* tab-ipad-responsive */
+    /* tab-ipad-responsive */
+    /* tab-ipad-responsive */
+    /* tab-ipad-responsive */
+    /* tab-ipad-responsive */
+    /* tab-ipad-responsive */
+    /* tab-ipad-responsive */
+    /* tab-ipad-responsive */
+    /* tab-ipad-responsive */
+    /* tab-ipad-responsive */
+
+    @media screen and (max-width: 1024px) {
+      .container {
+        width: 90%;
+      }
+
+
+
+    }
+
+
+
+
+
+    /* mobile-phone-iphone-android-responsive */
+    /* mobile-phone-iphone-android-responsive */
+    /* mobile-phone-iphone-android-responsive */
+    /* mobile-phone-iphone-android-responsive */
+    /* mobile-phone-iphone-android-responsive */
+    /* mobile-phone-iphone-android-responsive */
+    /* mobile-phone-iphone-android-responsive */
+    /* mobile-phone-iphone-android-responsive */
+    /* mobile-phone-iphone-android-responsive */
+    /* mobile-phone-iphone-android-responsive */
+    /* mobile-phone-iphone-android-responsive */
+    /* mobile-phone-iphone-android-responsive */
+
+    @media screen and (max-width: 471px) {
+      .container {
+        width: 100%;
+      }
+
+      /* heading logo */
+        /* heading logo */
+        /* heading logo */
+        .logo > a > img {
+          margin: 2em 0 0 0em;
+          width: 7.5em;
+        }
+
+        
+        /* heading title */
+        /* heading title */
+        /* heading title */
+        .heading-title {
+          font-family: 'Libre Baskerville', serif;
+          margin: .4em 0 0 0;
+          font-size: 4em;
+          font-weight: bold;
+        }
+
+        .heading-line {
+          margin: .1.8em 0 0 0;
+          font-size: 1.4em;
+          line-height: 1.5em;
+        }
+
+        .heading-subline {
+          font-size: 1em;
+        }
+
+        .current-company {
+          color: #0f131d;
+        }
+
+        /* Short rectangle */
+        /* Short rectangle */
+        /* Short rectangle */
+        .short-rect {
+          margin: 2.4em 0 1.9em 0;
+          width: 7em;
+          height: .6em;
+          background-color: #f0f0f0;
+        }
+
+        /* heading animation */
+        /* heading animation */
+        /* heading animation */
+
+        .cd-headline {
+          font-size: 1.4em;
+          color: #0f131d;
+        }
+
+         /* download resume */
+        /* download resume */
+        /* download resume */
+        .resume_button {
+          display: none;
+          float: right;
+          margin: 3.5em 0em 0 0;
+          font-family: 'Karla', sans-serif;
+          font-weight: bold;
+          font-size: 1.1em;
+          color: #0f131d;
+          border: 3px solid #f0f0f0;
+          padding: 8px 15px;
+          background-color: #f0f0f0;
+          }
+  
+          .doenload-resume-mobile {
+            margin: 2em 0 0 0;
+            display: block;
+            width: 100%;
+            text-align: center;
+            background-color: #0f131d;
+            color: #fff;
+            padding: 15px 15px;
+            font-size: 1.2em;
+          }
+
+
+
+
+  /* Detail-me2 */
+  /* Detail-me2 */
+  /* Detail-me2 */
+  .detail-me2 {
+    margin: 2em 0 0 0;
+  }
+
+  .detail-me-content2 {
+    background-color: rgb(23, 22, 22);
+    color: #0f131d;
+    height: auto;
+    padding: 1em;
+    font-size: 1.2em;
+    border-radius: .2em;
+  }
+
+  .column-bottom {
+    transition: all .2s ease-in-out;
+  }
+
+  .column-bottom:hover {
+    transform: scale(1.03);
+  }
+
+  .dt {
+    font-size: 1em;
+    line-height: 1.7em;
+    margin: 0 0 .6em 0;
+    font-weight: 700;
+    color: #fff;
+    opacity: .9;
+  }
+
+  .pt {
+    font-size: 1em;
+    margin: 0 0 2.2em 0;
+    color: #fff;
+    opacity: .7;
+    font-weight: 400;
+  }
+
+  .st {
+    color: #fff;
+    opacity: .7;
+    font-size: 1em;
+    font-weight: 700;
+  }
+
+  .it {
+    color: #e3fffc;
+    max-width: 5em;
+    margin-bottom: 2em;
+    margin-top: .7em;
+    opacity: .9;
+  }
+
+
+
+
+        /* Detail-me */
+  /* Detail-me */
+  /* Detail-me */
+    .detail-me {
+      display: none;
+      margin: 3em 0 0 0;
+    }
+
+    .detail-me-content {
+      background-color: #f0f0f0;
+      border: none;
+      color: #0f131d;
+      height: auto;
+      padding: 1em;
+      font-size: 1.2em;
+    }
+
+    .detail-me-content > img {
+      width: 3em;
+      margin-bottom: .5em;
+    }
+
+    .column-bottom {
+      margin: 1em .9em 0 0;
+    }
+
+     /* My-work */
+    /* My-work */
+    /* My-work */
+    .my-work {
+      margin: 5em 0 0 0;
+    }
+
+    .img-work {
+      margin-right: .6em;
+    }
+
+    .my-work > h1 {
+      font-family: 'Libre Baskerville', serif;
+      font-weight: bold;
+      font-size: 2.2em;
+      margin: 0 0 0 0;
+    }
+
+    .my-work-content {
+      color: #0f131d;
+      font-size: 1.2em;
+      margin: 0 0 2em 0;
+    }
+
+    .my-work-content > h5 {
+      margin: 1em 0 0 0;
+    }
+
+    .my-work-content > p {
+      margin: .5em 0 1.3em 0;
+    }
+
+    .my-work-content > a {
+      background-color: #f0f0f0;
+      padding: 15px 15px;
+    }
+
+    .column-bottom-work {
+      margin: 3.5em 0 0 0;
+    }
+
+     .mywork-row {
+      margin-top: 0em;
+    }
+
+    
+    /* all-work */
+    /* all-work */
+    /* all-work */
+    .all-work {
+      margin: 0 0 6.2em 0;
+    }
+
+    .all-work-content {
+      background-color: #0f131d;
+      color: #ffffff;
+      font-size: 1.2em;
+      padding: 1.5em;
+      margin-top: 0;
+      margin-bottom: 1em;
+      margin-left: 0;
+      margin-right: .8em;
+    }
+
+    .icon-big {
+      font-size: 2.5em;
+      margin: 0 0 .3em 0;
+    }
+
+    .icon-r {
+      float: right;
+    }
+
+
+
+
+    .footer-line {
+      margin-bottom:8em;
+      margin-top: 8em;
+    }
+
+    .footer-line-sty > h1 {
+      font-size: 2.5em;
+      text-align: center;
+      font-weight: bold;
+      font-family: 'Libre Baskerville', serif;
+      opacity: 1;
+      line-height: 1.4em;
+    }
+
+
+    tag_bg {
+          background-color: rgb(247, 247, 232);
+          padding: .3em .6em;
+          border-radius: .2em;
+          display: inline-block;
+          margin: .1em 0;
+        }
+
+      
+        
+
+    }
