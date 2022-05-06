@@ -1,10 +1,10 @@
 body {
-        font-family: 'Libre Baskerville', serif;
-        font-family: 'Karla', sans-serif;
+        font-family: obviously, sans-serif;
+        font-family: 'Montserrat', sans-serif;
         width: 100%;
         height: 100%;
-        color: rgb(23, 22, 22);
-        background-color: rgb(255, 255, 255);
+        color: rgb(16, 21, 0);
+        background-color: rgb(255, 254, 239);
       }
 
 
@@ -55,19 +55,18 @@ body {
         .resume_button {
         float: right;
         margin: 5em 0em 0 0;
-        font-family: 'Karla', sans-serif;
-        font-weight: bold;
+        font-family: obviously, sans-serif;
+        font-weight: 700;
         font-size: 1.2em;
-        color: #0f131d;
         padding: 12px 21px;
-        background-color: rgb(247, 247, 232);
+        background-color: #f1f1de;
         transition: all .3s ease-in-out;
         border-radius: .2em;
         }
       
         .resume_button:hover {
-          color: #fff;
-          background-color: rgb(23, 22, 22);
+          color: rgb(255, 254, 239);
+          background-color: rgb(16, 21, 0);
           text-decoration: none;
         }
 
@@ -109,25 +108,28 @@ body {
         /* heading title */
         /* heading title */
         .heading-title {
-          font-family: 'Libre Baskerville', serif;
+          font-family: obviously, sans-serif;
           margin: .8em 0 0 0;
-          font-size: 4.5em;
+          font-size: 4.7em;
           font-weight: bold;
         }
 
         .heading-line {
-          margin: .1.8em 0 0 0;
-          font-size: 1.7em;
-          line-height: 1.7em;
+          font-family: 'Montserrat', sans-serif;
+          margin: .4em 0 0 0;
+          font-size: 1.6em;
+          line-height: 1.8em;
+          font-weight: 400;
         }
 
         .heading-subline {
-          font-size: 1.2em;
+          font-size: 1.1em;
           margin-top: .5em;
         }
 
         .current-company {
           color: #0f131d;
+          font-weight: 700;
         }
 
 
@@ -136,10 +138,10 @@ body {
         /* Short rectangle */
         /* Short rectangle */
         .short-rect {
-          margin: 3.3em 0 2.5em 0;
+          margin: 3.6em 0 2.8em 0;
           width: 7em;
           height: .6em;
-          background-color: rgb(247, 247, 232);
+          background-color: #f1f1de;
           border-radius: .1em;
         }
 
@@ -151,8 +153,9 @@ body {
         /* heading animation */
 
         .cd-headline {
-          font-size: 1.7em;
-          color: #0f131d;
+          font-size: 1.5em;
+          font-weight: 400;
+          font-family: obviously, sans-serif;
         }
         .cd-words-wrapper {
           display: inline-block;
@@ -174,6 +177,9 @@ body {
         }
         .no-js .cd-words-wrapper b.is-visible {
           opacity: 1;
+        }
+        b, strong {
+          font-weight: 600;
         }
 
 
@@ -331,8 +337,7 @@ xslide
   }
 
   .detail-me-content2 {
-    background-color: rgb(23, 22, 22);
-    color: #0f131d;
+    background-color: rgb(16, 21, 0);
     height: auto;
     padding: 1em;
     font-size: 1.2em;
@@ -348,31 +353,33 @@ xslide
   }
 
   .dt {
-    font-size: 1em;
+    font-family: obviously, sans-serif;
+    font-size: 1.1em;
     line-height: 1.7em;
     margin: 0 0 .6em 0;
-    font-weight: 700;
-    color: #fff;
+    font-weight: 600;
+    color: rgb(255, 254, 239);
     opacity: .9;
   }
 
   .pt {
-    font-size: 1em;
+    font-size: .85em;
     margin: 0 0 2.2em 0;
-    color: #fff;
+    color: rgb(255, 254, 239);
     opacity: .7;
     font-weight: 400;
+    line-height: 1.8em;
   }
 
   .st {
-    color: #fff;
+    color: rgb(255, 254, 239);
     opacity: .7;
     font-size: 1em;
     font-weight: 700;
   }
 
   .it {
-    color: #e3fffc;
+    color: rgb(255, 254, 239);
     max-width: 5em;
     margin-bottom: 2em;
     margin-top: .7em;
@@ -415,7 +422,7 @@ xslide
     }
 
     .my-work > h1 {
-      font-family: 'Libre Baskerville', serif;
+      font-family: obviously, sans-serif;
       font-weight: bold;
       font-size: 2.5em;
       margin: 0 0 .1em 0em;
@@ -423,7 +430,7 @@ xslide
 
     .my-work > p {
       font-size: 1.2em;
-      margin: 0 0 2em 0em;
+      margin: .5em 0 2em 0em;
     }
 
     .my-work-content {
@@ -432,15 +439,17 @@ xslide
     }
 
     .my-work-content > h5 {
+      font-family: obviously, sans-serif;
       margin: 1.2em 0 0 0;
       line-height: 1.5em;
       font-size: 1.1em;
-      font-weight: bold;
+      font-weight: 600;
     }
 
     .my-work-content > p {
       margin: .6em 0 1.8em 0;
-      color: #525252;
+      line-height: 1.5em;
+      color: #62635e;
     }
 
     .img-work {
@@ -539,7 +548,7 @@ xslide
       font-size: 3em;
       text-align: center;
       font-weight: bold;
-      font-family: 'Libre Baskerville', serif;
+      font-family: obviously, sans-serif;
       opacity: 1;
       line-height: 1.6em;
     }
@@ -552,13 +561,17 @@ xslide
     /* Contact-me */
     /* Contact-me */
     .contact-me {
+      font-family: obviously, sans-serif;
       text-align: center;
       margin-bottom: 1.5em;
     }
 
     .contact-me-head > h4 {
       font-size: 1.2em;
-      font-weight: normal !important;
+    }
+
+    .contact-me-head > h4 > a {
+      font-weight: 500 !important;
     }
 
 
@@ -585,27 +598,30 @@ xslide
     /* heading title child page */
 
         .heading-top-read {
-          font-size: 1.3em;
-          color: #707070;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 1.2em;
+          color: #62635e;
           margin-top: 1em;
           text-align: center;
+          font-weight: 400;
         }
 
         .heading-title-child {
           margin: .8em 0 0 0;
           font-size: 2.3em;
-          font-weight: 600;
+          font-weight: 700;
           line-height: 1.2em;
-          font-family: 'Libre Baskerville', serif;
+          font-family: obviously, sans-serif;
           text-align: center;
         }
 
         .heading-line-child {
-          margin: .7em 0 0 0;
-          font-size: 1.3em;
+          margin: 1em 0 0 0;
+          font-size: 1.2em;
           line-height: 1.8em;
           text-align: center;
-          color: #4e4e4e;
+          color: #62635e;
+          font-weight: 400;
         }
 
         .heading-tag-child {
@@ -615,9 +631,13 @@ xslide
         }
 
         tag_bg {
-          background-color: rgb(247, 247, 232);
+          background-color: #f1f1de;
           padding: .3em .6em;
           border-radius: .2em;
+          color: #62635e;
+          font-family: obviously, sans-serif;
+          font-size: .8em;
+          font-weight: 500;
         }
 
 
@@ -629,16 +649,17 @@ xslide
 
 
         .heading-head-child > h1 {
-          font-family: 'Libre Baskerville', serif;
-          font-size: 2.3em;
+          font-family: obviously, sans-serif;
+          font-size: 2.1em;
           font-weight: bold;
           margin-top: 3.2em;
           margin-bottom: .5em;
         }
 
         .heading-head-child > h3 {
-          font-size: 1.5em;
-          font-weight: bold;
+          font-family: obviously, sans-serif;
+          font-size: 1.3em;
+          font-weight: 600;
           margin-top: 1.4em;
           margin-bottom: .5em;
         }
@@ -648,14 +669,14 @@ xslide
         }
 
         .heading-head-child > p {
-          font-size: 1.3em;
-          line-height: 1.8em;
+          font-size: 1.2em;
+          line-height: 2em;
         }
 
         .heading-list-point > li {
-          font-size: 1.3em;
+          font-size: 1.2em;
           line-height: 1.8em;
-          color: #757575;
+          color: #62635e;
         }
 
         .research {
@@ -819,9 +840,10 @@ xslide
         .about-me-head > p {
           margin-top: 2em;
           margin-bottom: 1em;
-          font-size: 1.3em;
-          line-height: 1.8em;
-          color: #fff;
+          font-size: 1.2em;
+          line-height: 2em;
+          color: rgb(255, 254, 239);
+          font-family: 'Montserrat', sans-serif;
           opacity: .9
 
         }
@@ -897,9 +919,9 @@ xslide
         }
 
         .about-me-title {
-          font-family: 'Libre Baskerville', serif;
-          font-weight: bold;
-          font-size: 2.5em;
+          font-family: obviously, sans-serif;
+          font-weight: 700;
+          font-size: 2.1em;
           margin: 0 0 .1em 0em;
           margin-top: 2.5em;
           margin-bottom: .7em;
