@@ -355,7 +355,7 @@ xslide
   .dt {
     font-family: obviously, sans-serif;
     font-size: 1.1em;
-    line-height: 1.7em;
+    line-height: 1.6em;
     margin: 0 0 .6em 0;
     font-weight: 600;
     color: rgb(255, 254, 239);
@@ -694,12 +694,13 @@ xslide
         /* my-work-page */
         /* my-work-page */
         .my-work-page > h1 {
-          font-family: 'Libre Baskerville', serif;
+          font-family: obviously, sans-serif;
           font-weight: bold;
-          font-size: 2.5em;
+          font-size: 2.1em;
           margin: 0 0 .1em 0em;
           margin-top: 2.5em;
           margin-bottom: .7em;
+          color: rgb(255, 254, 239);
         }
 
         .my-work-page-head > p {
@@ -767,12 +768,12 @@ xslide
           margin-bottom: 5em;
           font-size: 1.3em;
           line-height: 1.8em;
-          color: #fff;
+          color: rgb(255, 254, 239);
           opacity: .9
         }
 
         .my-work-content > .mywork-sec-para {
-          color: #fff;
+          color: rgb(255, 254, 239);
           opacity: .9;
         }
 
@@ -849,7 +850,7 @@ xslide
         }
 
         .about-me-head-exp {
-          background-color: #A5D6A7;
+          background-color: #FFE082;
           width: auto;
           height: auto;
           padding: 1.5em 1.5em;
@@ -858,7 +859,7 @@ xslide
         }
 
         .about-me-head-exp-vb {
-          background-color: #FFE082;
+          background-color: #A5D6A7;
           width: auto;
           height: auto;
           padding: 1.5em 1.5em;
@@ -877,36 +878,46 @@ xslide
 
         .about-me-head-exp > a {
           font-size: 1.2em;
+          font-family: obviously, sans-serif;
+          font-weight: 700;
+        }
+
+        .about-me-head-exp-vb > a {
+          font-size: 1.2em;
+          font-family: obviously, sans-serif;
+          font-weight: 700;
         }
 
         .about-me-head-exp-ft > a {
           font-size: 1.2em;
+          font-family: obviously, sans-serif;
         }
 
         .heading-about {
-          font-size: 1.4em;
-          margin-bottom: .2em;
+          font-size: 1.2em;
+          margin-bottom: .5em;
+          line-height: 1.5em;
         }
 
         .exp-about {
-          color: rgb(23, 22, 22);
+          color: rgb(16, 21, 0);
           font-size: 1.2em;
           line-height: 1.8em;
         }
 
         p > .avai-about {
-          background-color: rgb(23, 22, 22);
+          background-color: rgb(16, 21, 0);
           padding: .2em .7em;
           border-radius: 5em;
-          color: #A5D6A7;
+          color: #FFE082;
           font-size: 1em;
         }
 
         p > .avai-about-vb {
-          background-color: rgb(23, 22, 22);
+          background-color: rgb(16, 21, 0);
           padding: .2em .7em;
           border-radius: 5em;
-          color: #FFE082;
+          color: #A5D6A7;
           font-size: 1em;
         }
 
@@ -916,6 +927,7 @@ xslide
           border-radius: 5em;
           color: #fff;
           font-size: 1em;
+          font-weight: 400;
         }
 
         .about-me-title {
@@ -924,8 +936,8 @@ xslide
           font-size: 2.1em;
           margin: 0 0 .1em 0em;
           margin-top: 2.5em;
-          margin-bottom: .7em;
-          color: #fff;
+          margin-bottom: 1em;
+          color: rgb(255, 254, 239);
           opacity: .9;
         }
 
